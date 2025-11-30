@@ -33,10 +33,11 @@ This guide provides step-by-step instructions for deploying the Real-Time Chat A
    - Vercel will automatically detect it as a Vite project
 
 3. **Configure Build Settings**:
-   - **Framework Preset**: Vite
+   - **Framework Preset**: Vite (should auto-detect)
    - **Root Directory**: ./
-   - **Build Command**: `npm run build`
-   - **Output Directory**: dist
+   - **Build Command**: `npm run build` (should auto-detect)
+   - **Output Directory**: dist (should auto-detect)
+   - The `_redirects` file in `public/` will handle SPA routing
 
 4. **Environment Variables**:
    - `VITE_SOCKET_URL`: Set to your Render backend URL (e.g., `https://your-backend.onrender.com`)

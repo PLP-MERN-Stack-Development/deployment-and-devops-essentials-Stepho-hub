@@ -174,6 +174,8 @@ The assignment includes templates for setting up GitHub Actions workflows:
 ```
 deployment-and-devops-essentials-Stepho-hub/
 ├── public/
+│   ├── _redirects          # SPA routing for Vercel
+│   └── vite.svg
 ├── src/
 │   ├── components/
 │   │   ├── ChatRoom.jsx
@@ -190,6 +192,7 @@ deployment-and-devops-essentials-Stepho-hub/
 │   └── main.jsx
 ├── server.js
 ├── package.json
+├── render.yaml              # Render deployment config
 └── vite.config.js
 ```
 
