@@ -8,8 +8,6 @@
 
 A full-stack real-time chat application built with React, Socket.io, and Express. This application allows users to engage in real-time messaging, join chat rooms, send private messages, and see online users with typing indicators and read receipts.
 
-This assignment focuses on deploying a full MERN stack application to production, implementing CI/CD pipelines, and setting up monitoring for your application.
-
 ## Features
 
 - **Real-Time Messaging**: Instant message delivery using WebSockets
@@ -39,28 +37,12 @@ This assignment focuses on deploying a full MERN stack application to production
 - bcryptjs (password hashing)
 - CORS
 
-## Assignment Overview
-
-You will:
-1. Prepare your MERN application for production deployment
-2. Deploy the backend to a cloud platform
-3. Deploy the frontend to a static hosting service
-4. Set up CI/CD pipelines with GitHub Actions
-5. Implement monitoring and maintenance strategies
-
-## Getting Started
-
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Follow the setup instructions below
-4. Use the provided templates and configuration files as a starting point
-
 ## Installation
 
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd deployment-and-devops-essentials-Stepho-hub
+   cd @latest
    ```
 
 2. Install dependencies:
@@ -93,44 +75,6 @@ You will:
 3. **Send Messages**: Type your message and press Enter
 4. **Private Messages**: Click on a user in the online list to start a private conversation
 5. **Theme Toggle**: Use the theme switcher in the UI to change between light and dark modes
-
-## Files Included
-
-- `Week7-Assignment.md`: Detailed assignment instructions
-- `.github/workflows/`: GitHub Actions workflow templates
-- `deployment/`: Deployment configuration files and scripts
-- `.env.example`: Example environment variable templates
-- `monitoring/`: Monitoring configuration examples
-
-## Requirements
-
-- A completed MERN stack application from previous weeks
-- Accounts on the following services:
-  - GitHub
-  - MongoDB Atlas
-  - Render, Railway, or Heroku (for backend)
-  - Vercel, Netlify, or GitHub Pages (for frontend)
-- Basic understanding of CI/CD concepts
-
-## Deployment Platforms
-
-### Backend Deployment Options
-- **Render**: Easy to use, free tier available
-- **Railway**: Developer-friendly, generous free tier
-- **Heroku**: Well-established, extensive documentation
-
-### Frontend Deployment Options
-- **Vercel**: Optimized for React apps, easy integration
-- **Netlify**: Great for static sites, good CI/CD
-- **GitHub Pages**: Free, integrated with GitHub
-
-## CI/CD Pipeline
-
-The assignment includes templates for setting up GitHub Actions workflows:
-- `frontend-ci.yml`: Tests and builds the React application
-- `backend-ci.yml`: Tests the Express.js backend
-- `frontend-cd.yml`: Deploys the frontend to your chosen platform
-- `backend-cd.yml`: Deploys the backend to your chosen platform
 
 ## API Endpoints
 
@@ -172,7 +116,7 @@ The assignment includes templates for setting up GitHub Actions workflows:
 ## Project Structure
 
 ```
-deployment-and-devops-essentials-Stepho-hub/
+@latest/
 ├── public/
 ├── src/
 │   ├── components/
@@ -193,35 +137,6 @@ deployment-and-devops-essentials-Stepho-hub/
 └── vite.config.js
 ```
 
-## Deployment
-
-### Deployed Application URLs
-
-- **Frontend URL**: https://real-time-chat-frontend.vercel.app
-- **Backend API URL**: https://real-time-chat-backend.onrender.com
-
-### CI/CD Pipeline Screenshots
-
-- **GitHub Actions Workflow**: ![CI/CD Pipeline](https://via.placeholder.com/800x400?text=CI/CD+Pipeline+Screenshot)
-
-### Monitoring Setup
-
-- **Health Check Endpoint**: `GET /health` - Returns server status and uptime
-- **Uptime Monitoring**: Configured with Render's built-in monitoring (99.9% uptime SLA)
-- **Error Tracking**: Basic error logging implemented in server.js with console.error
-- **Performance Monitoring**: Server response times monitored via Render dashboard
-
-## Submission
-
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
-
-1. Complete all deployment tasks
-2. Set up CI/CD pipelines with GitHub Actions
-3. Deploy both frontend and backend to production
-4. Document your deployment process in the README.md
-5. Include screenshots of your CI/CD pipeline in action
-6. Add URLs to your deployed applications
-
 ## Contributing
 
 1. Fork the repository
@@ -239,12 +154,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Socket.io](https://socket.io/) for real-time communication
 - [React](https://reactjs.org/) for the frontend framework
 - [Tailwind CSS](https://tailwindcss.com/) for styling
-
-## Resources
-
-- [GitHub Actions Documentation](https://docs.github.com/en/actions)
-- [MongoDB Atlas Documentation](https://docs.atlas.mongodb.com/)
-- [Render Documentation](https://render.com/docs)
-- [Railway Documentation](https://docs.railway.app/)
-- [Vercel Documentation](https://vercel.com/docs)
-- [Netlify Documentation](https://docs.netlify.com/)

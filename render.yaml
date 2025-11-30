@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: real-time-chat-backend
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: JWT_SECRET
+        value: your_jwt_secret_key
+      - key: NODE_ENV
+        value: production
